@@ -94,7 +94,7 @@ class Generate {
     
       $xml[$i] = ' 
           <url> 
-            <loc>http://'. SITE_URL .'/index.php?main_page=product_info&amp;products_id='. $value['products_id'] .'</loc> 
+            <loc>http://'.http://www.sobifashions.com.au/ .'/index.php?main_page=product_info&amp;products_id='. $value['products_id'] .'</loc> 
             <image:image>
                <image:loc>http://'. SITE_URL .'.com/images/'. $value['products_image'] .'</image:loc> 
             </image:image>
